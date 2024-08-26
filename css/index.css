@@ -205,7 +205,7 @@ p {
     color: var(--dark-gray-color);
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 960px) {
     .award {
         margin-bottom: 120px;
     }
@@ -291,5 +291,78 @@ p {
     .illustration-text p {
         max-width: 439px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:718px) {
+    .award-container {
+        max-width: 100%;
+        padding-top: 80px;
+        row-gap: 80px;
+    }
+
+    .award-text {
+        max-width: 352px;
+        row-gap: 0;
+    }
+
+    .award-text h1 {
+        margin-bottom: 14px;
+        max-width: 327px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .award-text p {
+        margin-bottom: 24px;
+    }
+
+    .design-img h3 {
+        max-width: 263px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .design-img p {
+        max-width: 197px;
+        font-size: 15px;
+        line-height: 21.68px;
+        letter-spacing: 5px;
+    }
+
+    .img-1 {
+        background-image: url(../images/home/mobile/image-web-design.jpg);
+    }
+
+    .illustration {
+        margin-bottom: 121px;
+    }
+
+    .illustration-container {
+        padding: 90px 0;
+        row-gap: 80px;
+    }
+
+    .illustration-card {
+        max-width: 338px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 48px;
+    }
+
+    .illustration-text {
+        max-width: 338px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 32px;
+    }
+
+    .illustration-text h4 {
+        max-width: 338px;
+        width: 100%;
+        margin-bottom: 0;
     }
 }

@@ -57,7 +57,7 @@
     transform: scale(0.8);
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 960px) {
     .talk-project-container {
         max-width: 690px;
         padding: 57px 59px;
@@ -82,5 +82,26 @@
 
     .talk-project-text p {
         max-width: 550px;
+    }
+}
+
+@media screen and (max-width:718px) {
+    .talk-project-container {
+        padding: 64px 24px;
+    }
+
+    .talk-project {
+        margin-bottom: -195px;
+    }
+
+    .talk-project-text h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .talk-project-text p {
+        max-width: 279px;
+        font-size: 15px;
+        line-height: 25px;
     }
 }
