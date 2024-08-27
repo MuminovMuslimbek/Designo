@@ -1,7 +1,7 @@
 .country-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .country-card {
@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 52px;
+    padding: 0 52px
 }
 
 .country-card img {
@@ -17,11 +17,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     cursor: no-drop;
-    transition: 0.3s;
+    transition: .3s
 }
 
 .country-card img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1)
 }
 
 .country-card h3 {
@@ -32,7 +32,7 @@
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 1px;
-    color: var(--black-color);
+    color: var(--black-color)
 }
 
 .country-card button {
@@ -46,20 +46,20 @@
     line-height: 21.68px;
     letter-spacing: 1px;
     color: var(--white-color);
-    transition: 0.3s ease-in-out;
+    transition: .3s ease-in-out
 }
 
 .country-card button:hover {
-    background-color: rgba(231, 129, 107, 0.7);
+    background-color: rgba(231, 129, 107, .7)
 }
 
 .country-card button:active {
-    transform: scale(0.9);
+    transform: scale(.9)
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width:960px) {
     .country-container {
         flex-direction: column;
-        row-gap: 80px;
+        row-gap: 80px
     }
 }

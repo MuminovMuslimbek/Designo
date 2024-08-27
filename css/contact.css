@@ -1,10 +1,19 @@
-@import 'global.css';
+@import url(global.css);
+.contact-text,
+main {
+    flex-direction: column;
+    display: flex
+}
+
+.contact-input,
+.submit {
+    font-size: 15px;
+    font-weight: 500
+}
 
 main {
-    display: flex;
-    flex-direction: column;
     row-gap: 160px;
-    margin-bottom: 160px;
+    margin-bottom: 160px
 }
 
 .contact-main {
@@ -16,15 +25,20 @@ main {
     background-color: var(--peach-color);
     background-image: url(../images/contact/desktop/bg-pattern-hero-desktop.svg);
     background-repeat: no-repeat;
-    background-position: left -105px;
+    background-position: left -105px
 }
 
 .contact-text {
     max-width: 540px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
+    row-gap: 32px
+}
+
+.contact-form,
+.contact-input,
+.textarea {
+    max-width: 380px;
+    width: 100%
 }
 
 .contact-text h2 {
@@ -32,42 +46,39 @@ main {
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
-    color: var(--white-color);
+    color: var(--white-color)
+}
+
+.contact-input,
+.contact-text p,
+.eror-input p {
+    line-height: 26px;
+    color: var(--white-color)
 }
 
 .contact-text p {
     max-width: 445px;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--white-color);
+    font-weight: 400
 }
 
 .contact-form {
-    max-width: 380px;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 32px;
+    row-gap: 32px
 }
 
 .contact-input {
-    max-width: 380px;
-    width: 100%;
     padding-left: 16px;
     padding-bottom: 14px;
     background-color: #e7826b00;
     border: none;
-    border-bottom: 0.5px solid var(--white-color);
-    outline: none;
-    color: var(--white-color);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 26px;
+    border-bottom: .5px solid var(--white-color);
+    outline: 0
 }
 
 .contact-input:focus {
-    border-bottom: 3px solid var(--white-color);
+    border-bottom: 3px solid var(--white-color)
 }
 
 .contact-input::placeholder {
@@ -75,12 +86,12 @@ main {
     font-weight: 500;
     line-height: 26px;
     color: var(--white-color);
-    opacity: 50%;
+    opacity: 50%
 }
 
 .eror-email {
     display: flex;
-    position: relative;
+    position: relative
 }
 
 .eror-input {
@@ -88,23 +99,18 @@ main {
     align-items: center;
     column-gap: 9px;
     position: absolute;
-    right: 0;
+    right: 0
 }
 
 .eror-input p {
     font-size: 12px;
     font-style: italic;
     font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.999px;
-    color: var(--white-color);
+    letter-spacing: .999px
 }
 
 .textarea {
-    max-width: 380px;
-    width: 100%;
-    height: 102px;
-    height: 100%;
+    height: 100%
 }
 
 .submit {
@@ -116,47 +122,35 @@ main {
     cursor: pointer;
     text-transform: uppercase;
     font-family: Jost;
-    font-size: 15px;
-    font-weight: 500;
     line-height: 21.68px;
     letter-spacing: 1px;
     text-align: center;
     color: var(--black-color);
-    transition: 0.3s;
+    transition: .3s
 }
 
 .submit:hover {
     background-color: var(--light-peach-color);
-    color: var(--white-color);
+    color: var(--white-color)
 }
 
 .submit:active {
-    transform: scale(0.8);
+    transform: scale(.8)
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width:960px) {
     .contact-main {
         padding: 71px 58px;
         flex-direction: column;
         align-items: start;
         row-gap: 40px;
-        background-position: -100px -50px;
+        background-position: -100px -50px
     }
-
-    .contact-text {
-        max-width: 100%;
-    }
-
+    .contact-form,
+    .contact-input,
+    .contact-text,
     .contact-text p {
-        max-width: 100%;
-    }
-
-    .contact-form {
-        max-width: 100%;
-    }
-
-    .contact-input {
-        max-width: 100%;
+        max-width: 100%
     }
 }
 
@@ -164,30 +158,25 @@ main {
     .contact-main {
         padding: 72px 24px;
         align-items: center;
-        text-align: center;
+        text-align: center
     }
-
     .contact-text {
-        row-gap: 24px;
+        row-gap: 24px
     }
-
     .contact-text h2 {
         font-size: 32px;
         font-weight: 500;
-        line-height: 36px;
+        line-height: 36px
     }
-
     .contact-text p {
         font-size: 15px;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 25px
     }
-
     .eror-input {
-        display: none;
+        display: none
     }
-
     .submit {
-        margin-right: auto;
+        margin-right: auto
     }
 }

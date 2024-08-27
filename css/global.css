@@ -5,7 +5,6 @@
 @import 'footer.css';
 @import 'talk-project.css';
 @import 'country.css';
-
 *,
 *::after,
 *::before {
@@ -58,8 +57,8 @@ main {
     max-width: 1211px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 ::-webkit-scrollbar {

@@ -1,0 +1,126 @@
+@import 'global.css';
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 160px;
+    margin-bottom: 160px;
+}
+
+.name__designs-main {
+    background-color: var(--peach-color);
+    background-image: url(../images/web-design/desktop/bg-pattern-intro-web.svg);
+    background-repeat: no-repeat;
+    background-position: 270px -176px;
+    padding: 64px 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 24px;
+    border-radius: 20px;
+}
+
+.name__designs-main h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    color: var(--white-color);
+}
+
+.name__designs-main p {
+    max-width: 433px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white-color);
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    max-width: 350px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 16px;
+    border-radius: 0 0 20px 20px;
+    background-color: #FDF3F0;
+    color: var(--dark-gray-color);
+    transition: all 0.3s;
+}
+
+.card-text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+    color: #e7816b;
+}
+
+.card-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-text:hover {
+    background-color: var(--peach-color);
+    color: var(--white-color);
+}
+
+.card-text:hover h3 {
+    background-color: var(--peach-color);
+    color: var(--white-color);
+}
+
+@media screen and (max-width: 960px) {
+    .name__designs-main {
+        padding: 64px 0;
+    }
+    main {
+        row-gap: 120px;
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 718px) {
+    .name__designs-main {
+        padding: 105px 24px;
+    }
+    .name__designs-main h1 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .name__designs-main p {
+        max-width: 343px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+}
