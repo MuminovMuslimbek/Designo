@@ -1,11 +1,13 @@
 @import './global.css';
 
-.award {
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 160px;
     margin-bottom: 160px;
 }
 
-.award-container {
-    max-width: 1111px;
+.award-main {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -14,7 +16,8 @@
     background-size: 640px;
     background-repeat: no-repeat;
     background-position: right;
-    padding-top: 145px;
+    padding: 145px 95px 0 95px;
+    column-gap: 20px;
     border-radius: 20px;
 }
 
@@ -37,10 +40,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-}
-
-.designs {
-    margin-bottom: 160px;
 }
 
 .designs-container {
@@ -155,10 +154,6 @@ p {
     opacity: 0.7;
 }
 
-.illustration {
-    margin-bottom: 160px;
-}
-
 .illustration-container {
     display: flex;
     justify-content: space-between;
@@ -206,18 +201,19 @@ p {
 }
 
 @media screen and (max-width: 960px) {
-    .award {
-        margin-bottom: 120px;
+    main {
+        row-gap: 120px;
+        margin-bottom: 120;
     }
 
-    .award-container {
+    .award-main {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         row-gap: 69px;
         overflow: hidden;
-        padding-top: 60px;
+        padding: 60px 58px 0 58px;
         height: 852px;
     }
 
@@ -226,10 +222,6 @@ p {
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    .designs {
-        margin-bottom: 120px;
     }
 
     .designs-container {
@@ -252,10 +244,6 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .illustration {
-        margin-bottom: 67px;
     }
 
     .illustration-container {
@@ -295,9 +283,9 @@ p {
 }
 
 @media screen and (max-width:718px) {
-    .award-container {
+    .award-main {
         max-width: 100%;
-        padding-top: 80px;
+        padding: 80px 24px 0 24px;
         row-gap: 80px;
     }
 
@@ -332,10 +320,6 @@ p {
 
     .img-1 {
         background-image: url(../images/home/mobile/image-web-design.jpg);
-    }
-
-    .illustration {
-        margin-bottom: 121px;
     }
 
     .illustration-container {

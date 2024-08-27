@@ -1,6 +1,9 @@
     @import 'global.css';
 
-    .about_us {
+    main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 160px;
         margin-bottom: 160px;
     }
 
@@ -48,10 +51,6 @@
         color: var(--white-color);
     }
 
-    .talent {
-        margin-bottom: 160px;
-    }
-
     .talent-main {
         display: flex;
     }
@@ -92,10 +91,6 @@
         font-weight: 400;
         line-height: 26px;
         color: var(--dark-gray-color);
-    }
-
-    .real_deal {
-        margin-bottom: 160px;
     }
 
     .real_deal-main {
@@ -142,8 +137,9 @@
     }
 
     @media screen and (max-width: 960px) {
-        .about_us {
-            margin-bottom: 120px;
+        main {
+            row-gap: 120px;
+            margin-bottom: 120;
         }
 
         .about_us-container {
@@ -177,10 +173,6 @@
             max-width: 573px;
         }
 
-        .talent {
-            margin-bottom: 120px;
-        }
-
         .talent-container {
             display: flex;
             justify-content: center;
@@ -206,10 +198,6 @@
             text-align: center;
             padding: 68px 59px;
             border-radius: 0 0 20px 20px;
-        }
-
-        .real_deal {
-            margin-bottom: 120px;
         }
 
         .real_deal-container {

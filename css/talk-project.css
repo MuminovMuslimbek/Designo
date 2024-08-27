@@ -4,12 +4,18 @@
 
 .talk-project-container {
     max-width: 1095px;
+    margin: 0 auto;
+}
+
+.talk-project-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--peach-color);
+    background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position: 147px -148px;
     padding: 72px 95px;
-    margin: 0 auto;
     border-radius: 20px;
 }
 
@@ -60,12 +66,16 @@
 @media screen and (max-width: 960px) {
     .talk-project-container {
         max-width: 690px;
+    }
+
+    .talk-project-main {
         padding: 57px 59px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         row-gap: 32px;
+        background-position: left;
     }
 
     .talk-project-text {
@@ -86,7 +96,7 @@
 }
 
 @media screen and (max-width:718px) {
-    .talk-project-container {
+    .talk-project-main {
         padding: 64px 24px;
     }
 

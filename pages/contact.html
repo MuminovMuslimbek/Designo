@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" href="../images/favicon-32x32.png">
     <title>Designo | Contact</title>
 </head>
 
@@ -12,7 +13,8 @@
     <header class="header">
         <div class="header-container container">
             <a class="site-logo" href="../index.html">
-                <img class="site-logo-image" src="../images/shared/desktop/logo-dark.png" alt="img" width="196px" height="24px">
+                <img class="site-logo-image" src="../images/shared/desktop/logo-dark.png" alt="img" width="196px"
+                    height="24px">
             </a>
             <nav class="sitenav">
                 <input class="nav-input" id="menubar" type="checkbox">
@@ -34,17 +36,60 @@
     </header>
 
     <main>
-        <section>
+        <section class="contact">
+            <div class="contact-container container">
+                <div class="contact-main">
+                    <div class="contact-text">
+                        <h2>Contact Us</h2>
+                        <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we
+                            can help your business grow. If you are looking for unique digital experiences that’s
+                            relatable to your users, drop us a line.</p>
+                    </div>
+                    <form class="contact-form" action="https://echo.htmlacademy.ru/courses" method="post">
+                        <input class="contact-input" type="text" name="Rose Caldwell" required
+                            placeholder="Rose Caldwell">
+                        <div class="eror-email">
+                            <input class="contact-input" type="email" name="email" required placeholder="Email Address">
+                            <div class="eror-input">
+                                <p>Can’t be empty</p>
+                                <img src="../images/contact/desktop/icon-error.svg" alt="img">
 
+                            </div>
+                        </div>
+                        <input class="contact-input" type="number" name="number" required placeholder="Phone">
+                        <textarea class="contact-input textarea" name="myTextarea" rows="4" cols="50" required
+                            placeholder="Your Message"></textarea>
+                        <button class="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="country">
+            <div class="country-container container">
+                <div class="country-card">
+                    <img src="../images/shared/desktop/illustration-canada.svg" alt="img">
+                    <h3>CANADA</h3>
+                    <a href="locations.html#canada"><button>SEE LOCATION</button></a>
+                </div>
+                <div class="country-card">
+                    <img src="../images/shared/desktop/illustration-australia.svg" alt="img">
+                    <h3>AUSTRALIA</h3>
+                    <a href="locations.html#australia"><button>SEE LOCATION</button></a>
+                </div>
+                <div class="country-card">
+                    <img src="../images/shared/desktop/illustration-united-kingdom.svg" alt="img">
+                    <h3>UNITED KINGDOM</h3>
+                    <a href="locations.html#UK"><button>SEE LOCATION</button></a>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <div class="footer-container container">
             <div class="footer-top">
-                <a class="site-logo" href="index.html">
-                    <img class="site-logo-image" src="../images/shared/desktop/logo-light.png" alt="img" width="196px" height="24px">
+                <a class="site-logo" href="../index.html">
+                    <img class="site-logo-image" src="../images/shared/desktop/logo-light.png" alt="img" width="196px"
+                        height="24px">
                 </a>
                 <nav class="sitenav-footer">
                     <ul class="sitenav-list-footer">

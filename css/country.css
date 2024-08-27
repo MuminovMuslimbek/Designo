@@ -1,7 +1,3 @@
-.country {
-    margin-bottom: 160px;
-}
-
 .country-container {
     display: flex;
     align-items: center;
@@ -20,6 +16,12 @@
     background-image: url(../images/shared/desktop/bg-pattern-small-circle.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: no-drop;
+    transition: 0.3s;
+}
+
+.country-card img:hover {
+    transform: scale(1.1);
 }
 
 .country-card h3 {
