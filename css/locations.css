@@ -4,13 +4,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 32px;
+    gap: 32px;
     margin-bottom: 160px;
 }
 
 .canada-container {
     display: flex;
-    column-gap: 30px;
+    gap: 30px;
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ main {
     background-image: url(../images/shared/desktop/bg-pattern-two-circles.svg);
     background-repeat: no-repeat;
     background-position: 0 bottom;
-    row-gap: 24px;
+    gap: 24px;
     padding: 0 95px;
     border-radius: 15px;
 }
@@ -37,7 +37,7 @@ main {
 
 .canada-adres {
     display: flex;
-    column-gap: 30px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -68,7 +68,7 @@ main {
 
 @media screen and (max-width: 960px) {
     main {
-        row-gap: 120px;
+        gap: 120px;
         margin-bottom: 120;
     }
 
@@ -77,7 +77,7 @@ main {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        row-gap: 30px;
+        gap: 30px;
     }
 
     .canada-map img {
@@ -105,6 +105,6 @@ main {
     .canada-adres {
         flex-direction: column;
         align-items: center;
-        row-gap: 24px;
+        gap: 24px;
     }
 }

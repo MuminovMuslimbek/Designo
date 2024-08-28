@@ -8,7 +8,7 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    row-gap: 3.1rem
+    gap: 3.1rem
 }
 
 .footer-top {
@@ -22,7 +22,7 @@
 .sitenav-list-footer {
     display: flex;
     align-items: center;
-    column-gap: 4.2rem
+    gap: 4.2rem
 }
 
 .sitenav-link-footer {
@@ -61,7 +61,7 @@
 .footer-links {
     display: flex;
     align-items: center;
-    column-gap: 16px
+    gap: 16px
 }
 
 .footer-links a {
@@ -77,31 +77,36 @@
     .footer {
         padding-top: 253px
     }
+
     .footer-container {
         flex-direction: column;
-        row-gap: 40px;
+        gap: 40px;
         align-items: center;
         text-align: center
     }
+
     .footer-top {
         flex-direction: column;
         border: none;
-        row-gap: 65px;
+        gap: 65px;
         padding: 0
     }
+
     .sitenav-list-footer {
         display: flex;
         flex-direction: column;
-        row-gap: 32px
+        gap: 32px
     }
+
     .footer-bottom {
         max-width: 327px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 40px
+        gap: 40px
     }
+
     .footer-bottom p {
         max-width: 205px;
         width: 100%

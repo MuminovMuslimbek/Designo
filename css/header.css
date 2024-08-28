@@ -13,7 +13,7 @@
 .sitenav-list {
     display: flex;
     align-items: center;
-    column-gap: 4.2rem;
+    gap: 4.2rem;
 }
 
 .sitenav-link {
@@ -48,7 +48,7 @@
         display: none;
         flex-direction: column;
         align-items: start;
-        row-gap: 32px;
+        gap: 32px;
         position: absolute;
         right: 0;
         top: 89px;
@@ -66,7 +66,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        row-gap: 32px;
+        gap: 32px;
         z-index: 1000;
     }
 

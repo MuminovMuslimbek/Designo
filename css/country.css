@@ -54,12 +54,12 @@
 }
 
 .country-card button:active {
-    transform: scale(.9)
+    transform: scale(0.9);
 }
 
 @media screen and (max-width:960px) {
     .country-container {
         flex-direction: column;
-        row-gap: 80px
+        gap: 80px
     }
 }

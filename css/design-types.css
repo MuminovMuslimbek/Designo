@@ -3,7 +3,7 @@
 main {
     display: flex;
     flex-direction: column;
-    row-gap: 160px;
+    gap: 160px;
     margin-bottom: 160px;
 }
 
@@ -17,7 +17,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 24px;
+    gap: 24px;
     border-radius: 20px;
 }
 
@@ -68,7 +68,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    row-gap: 16px;
+    gap: 16px;
     border-radius: 0 0 20px 20px;
     background-color: #FDF3F0;
     color: var(--dark-gray-color);
@@ -102,7 +102,7 @@ main {
 .design-container {
     display: flex;
     align-items: center;
-    column-gap: 30px;
+    gap: 30px;
 }
 
 .design-card {
@@ -114,7 +114,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    row-gap: 24px;
+    gap: 24px;
     padding: 107px 0;
     border-radius: 20px;
     background-repeat: no-repeat;
@@ -183,13 +183,13 @@ p {
     }
 
     main {
-        row-gap: 120px;
+        gap: 120px;
         margin-bottom: 120px;
     }
 
     .design-container {
         flex-direction: column;
-        row-gap: 24px;
+        gap: 24px;
     }
 
     .design-card {
